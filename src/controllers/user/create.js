@@ -59,7 +59,6 @@ const createUser = async (req, res) => {
     }
     return res.status(500).json({
       sucess: false,
-      error,
       message: 'Ocorreu um error desconhecido'
     })
   }

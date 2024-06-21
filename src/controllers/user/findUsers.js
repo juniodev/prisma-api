@@ -11,7 +11,6 @@ const findUsers = async (rea, res) => {
       
    } catch (error) {
       return res.status(500).json({
-         error,
          message: 'Não foi possível obter os usuários'
       })
    }
