@@ -1,6 +1,4 @@
 node_modules
 # Keep environment variables out of version control
 
-# Prisma
-prisma/dev.db
-prisma/dev.sqlite
+prisma/*.db
